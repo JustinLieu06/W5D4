@@ -4,6 +4,8 @@ body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  width: 900px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -12,6 +14,10 @@ h1 {
 
 h2 {
   font-size: 32px;
+}
+
+#directions {
+  margin-right: 150px;
 }
 
 /* This selector selects ALL anchor tag children of ALL list elements that
@@ -24,6 +30,7 @@ ul li a, figcaption a {
 /* This selector selects only IMMEDIATE (1 level deep) image element children
 of the header element */
 header > img {
+  /* display: list-item; */
   width: 100px;
 }
 
@@ -72,3 +79,26 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav {
+  display: inline-block;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: text-bottom;
+}
+/* .logo {
+  display: flex;
+} */
